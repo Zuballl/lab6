@@ -1,0 +1,28 @@
+# Systemowe pliki macOS
+.DS_Store
+
+# Pliki logów
+*.log
+
+# Foldery generowane przez build
+bin/
+obj/
+
+# Bazy danych SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Pliki konfiguracyjne
+appsettings*.json
+
+# Node.js (dla frontendu)
+frontend/node_modules/
+frontend/.next/
+frontend/build/
+frontend/.env
+
+# Inne pliki tymczasowe
+*.tmp
+*.cache
+
